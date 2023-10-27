@@ -1,9 +1,7 @@
 body {
   font-family: "Spectral", serif;
 }
-.padre {
-  position: relative;
-}
+
 nav {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -19,7 +17,7 @@ nav {
   top: 0;
   z-index: 99;
 }
-.gruppo {
+.group {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,10 +97,10 @@ nav {
   margin-bottom: 15px;
 }
 .trend .trendImg,
-.testo {
+.text {
   box-sizing: border-box;
 }
-.testo {
+.text {
   margin-left: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 550;
@@ -125,7 +123,7 @@ nav {
   margin-right: 10px;
   font-weight: 600;
 }
-.contPiccolo {
+.containerSmallSize {
   display: flex;
   flex-direction: column;
 }
@@ -176,12 +174,12 @@ hr {
   color: rgb(226, 226, 226);
   opacity: 0.3;
 }
-.containerFinale {
+.finalContainer {
   margin-inline: 15%;
   display: flex;
   margin-top: 80px;
 }
-.sinistra {
+.left {
   font-family: "Roboto", sans-serif;
   width: 63%;
   margin-right: 70px;
@@ -225,7 +223,7 @@ hr {
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8);
   background-color: rgb(200, 200, 200);
 }
-.destra {
+.right {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -235,17 +233,17 @@ hr {
   position: sticky;
   top: 78px;
 }
-.destra h3 {
+.right h3 {
   margin-block: 24px;
   font-size: 1.3rem;
   font-weight: 700;
 }
-.sessione1 {
+.section1 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
-.sessione1 a {
+.section1 a {
   border: 1px solid gray;
   border: 1px solid rgb(224, 224, 224);
   padding: 10px;
@@ -254,13 +252,13 @@ hr {
   margin-bottom: 10px;
   color: rgb(127, 127, 127);
 }
-.sessione2 {
+.section2 {
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
   border-top: 1px solid rgba(226, 226, 226, 0.9);
 }
-.sessione2 a {
+.section2 a {
   padding: 10px;
   text-decoration: none;
   margin-right: 6px;
